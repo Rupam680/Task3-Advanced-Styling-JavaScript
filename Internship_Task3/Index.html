@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internship Task - Web Development Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Internship Project - Web Development</h1>
+
+<img src="/mnt/data/cb2b535a-fa3f-417f-91b1-123dcbe00745.png" class="header-img">
+
+<h2>1. Responsive Layout</h2>
+<div class="container">
+    <div class="box">Box 1</div>
+    <div class="box">Box 2</div>
+    <div class="box">Box 3</div>
+</div>
+
+<h2>2. Interactive Quiz</h2>
+<div id="quiz">
+    <p id="question"></p>
+    <div id="options"></div>
+
+    <button class="btn" onclick="prevQuestion()">Previous</button>
+    <button class="btn" onclick="nextQuestion()">Next</button>
+    <button class="btn" onclick="submitQuiz()">Submit</button>
+
+    <p id="result"></p>
+</div>
+
+<h2>3. Fetch Joke API</h2>
+<button class="btn" onclick="getJoke()">Get Joke</button>
+<p id="jokeBox">Your joke will appear here...</p>
+
+<script src="script.js"></script>
+</body>
+</html>
